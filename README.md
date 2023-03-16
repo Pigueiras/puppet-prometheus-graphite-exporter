@@ -17,7 +17,7 @@ Just use `config.yaml`  with `--graphite.mapping-config="/etc/graphite_exporter/
 If you are using puppet to configure the exporter you can put the following:
 
 Hiera configuration:
-```
+```yaml
 # if you are using: https://github.com/theforeman/puppet-puppet
 puppet::server_metrics_graphite_enable: true
 puppet::server_metrics_graphite_host: localhost
@@ -32,7 +32,7 @@ prometheus::graphite_exporter::scrape_port: 9108
 
 And in your manifest:
 
-```
+```puppet
 ...
 include ::prometheus::graphite_exporter
 
@@ -45,6 +45,20 @@ file {'/etc/graphite_exporter/config.yaml':
 }
 ...
 ```
+
+## How the configuration file is generated
+
+You can run the generate python script and pipe the output of that script into
+a file.
+
+```console
+$ python3 generate.py > config.yaml
+```
+
+The paths inside the script are the whisper files generated in graphite after
+enabling the graphite monitoring in the puppet server.
+
+## Metrics generated
 
 These are the metrics you will see in your exporter when you scrape:
 
