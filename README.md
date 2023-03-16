@@ -5,7 +5,7 @@ A configuration for graphite-exporter to export Puppet server metrics in Prometh
 Puppet servers only export metrics in graphite format, if you want
 to export this metrics to be retrieved by Prometheus scrapes you need to use
 [graphite-exporter](https://github.com/prometheus/graphite_exporter). There are no plans
-to implement a prometheus endpoint in the puppet.
+to implement a prometheus endpoint in the puppet (from: https://tickets.puppetlabs.com/browse/SERVER-2713).
 
 The default configuration of `graphite-exporter` will export also the name of the
 machine (ideally it shouldn't be inside the name of the metric) and also the
