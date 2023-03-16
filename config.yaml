@@ -1,0 +1,1217 @@
+mappings:
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.p95'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_p95'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.count'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_count'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.min'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_min'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.p50'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_p50'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.max'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_max'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.p50'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_p50'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.max'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_max'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.p75'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_p75'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.count'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_count'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.stddev'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_stddev'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.min'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_min'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.p75'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_p75'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.p50'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_p50'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.count'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_count'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.min'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_min'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.mean'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_mean'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.p50'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_p50'
+
+- match: 'puppetlabs\.(.*)\.functions\.stddev'
+  match_type: regex
+  name: 'puppetlabs_functions_stddev'
+
+- match: 'puppetlabs\.(.*)\.functions\.min'
+  match_type: regex
+  name: 'puppetlabs_functions_min'
+
+- match: 'puppetlabs\.(.*)\.functions\.mean'
+  match_type: regex
+  name: 'puppetlabs_functions_mean'
+
+- match: 'puppetlabs\.(.*)\.compiler\.p95'
+  match_type: regex
+  name: 'puppetlabs_compiler_p95'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.stddev'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_stddev'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.min'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_min'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.p75'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_p75'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.p50'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_p50'
+
+- match: 'puppetlabs\.(.*)\.compiler\.stddev'
+  match_type: regex
+  name: 'puppetlabs_compiler_stddev'
+
+- match: 'puppetlabs\.(.*)\.compiler\.max'
+  match_type: regex
+  name: 'puppetlabs_compiler_max'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.stddev'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_stddev'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.min'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_min'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.count'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_count'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.stddev'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_stddev'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.mean'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_mean'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.p75'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_p75'
+
+- match: 'puppetlabs\.(.*)\.compiler\.min'
+  match_type: regex
+  name: 'puppetlabs_compiler_min'
+
+- match: 'puppetlabs\.(.*)\.compiler\.p50'
+  match_type: regex
+  name: 'puppetlabs_compiler_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.num-jrubies'
+  match_type: regex
+  name: 'puppetlabs_jruby_num_jrubies'
+
+- match: 'puppetlabs\.(.*)\.jruby\.request-count\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_request_count_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.num-free-jrubies'
+  match_type: regex
+  name: 'puppetlabs_jruby_num_free_jrubies'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.return-count\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_return_count_count'
+
+- match: 'puppetlabs\.(.*)\.memory\.total\.committed'
+  match_type: regex
+  name: 'puppetlabs_memory_total_committed'
+
+- match: 'puppetlabs\.(.*)\.memory\.total\.used'
+  match_type: regex
+  name: 'puppetlabs_memory_total_used'
+
+- match: 'puppetlabs\.(.*)\.memory\.heap\.init'
+  match_type: regex
+  name: 'puppetlabs_memory_heap_init'
+
+- match: 'puppetlabs\.(.*)\.memory\.heap\.committed'
+  match_type: regex
+  name: 'puppetlabs_memory_heap_committed'
+
+- match: 'puppetlabs\.(.*)\.memory\.heap\.used'
+  match_type: regex
+  name: 'puppetlabs_memory_heap_used'
+
+- match: 'puppetlabs\.(.*)\.memory\.non-heap\.used'
+  match_type: regex
+  name: 'puppetlabs_memory_non_heap_used'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.count'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_count'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.min'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_min'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.active-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_active_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_p50'
+
+- match: 'puppetlabs\.(.*)\.num-cpus'
+  match_type: regex
+  name: 'puppetlabs_num_cpus'
+
+- match: 'puppetlabs\.(.*)\.uptime'
+  match_type: regex
+  name: 'puppetlabs_uptime'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.count'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_count'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.max'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_max'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.mean'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_mean'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.p75'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_p75'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.p95'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_p95'
+
+- match: 'puppetlabs\.(.*)\.compiler\.compile\.p50'
+  match_type: regex
+  name: 'puppetlabs_compiler_compile_p50'
+
+- match: 'puppetlabs\.(.*)\.compiler\.count'
+  match_type: regex
+  name: 'puppetlabs_compiler_count'
+
+- match: 'puppetlabs\.(.*)\.compiler\.mean'
+  match_type: regex
+  name: 'puppetlabs_compiler_mean'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.min'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_min'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.max'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_max'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.p95'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_p95'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_node\.p50'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_node_p50'
+
+- match: 'puppetlabs\.(.*)\.compiler\.p75'
+  match_type: regex
+  name: 'puppetlabs_compiler_p75'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.count'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_count'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.max'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_max'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.mean'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_mean'
+
+- match: 'puppetlabs\.(.*)\.compiler\.find_facts\.p95'
+  match_type: regex
+  name: 'puppetlabs_compiler_find_facts_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-count\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_count_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timer\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timer_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-retry-count\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_retry_count_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-held-timer\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_held_timer_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.requested-jrubies-histo\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_requested_jrubies_histo_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.stddev'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_stddev'
+
+- match: 'puppetlabs\.(.*)\.jruby\.lock-wait-timer\.p50'
+  match_type: regex
+  name: 'puppetlabs_jruby_lock_wait_timer_p50'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.min'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_min'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.wait-timer\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_wait_timer_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_count'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.max'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_max'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.mean'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_mean'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.p75'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_p75'
+
+- match: 'puppetlabs\.(.*)\.jruby\.free-jrubies-histo\.p95'
+  match_type: regex
+  name: 'puppetlabs_jruby_free_jrubies_histo_p95'
+
+- match: 'puppetlabs\.(.*)\.jruby\.borrow-timeout-count\.count'
+  match_type: regex
+  name: 'puppetlabs_jruby_borrow_timeout_count_count'
+
+- match: 'puppetlabs\.(.*)\.memory\.heap\.max'
+  match_type: regex
+  name: 'puppetlabs_memory_heap_max'
+
+- match: 'puppetlabs\.(.*)\.memory\.non-heap\.max'
+  match_type: regex
+  name: 'puppetlabs_memory_non_heap_max'
+
+- match: 'puppetlabs\.(.*)\.memory\.non-heap\.init'
+  match_type: regex
+  name: 'puppetlabs_memory_non_heap_init'
+
+- match: 'puppetlabs\.(.*)\.memory\.non-heap\.committed'
+  match_type: regex
+  name: 'puppetlabs_memory_non_heap_committed'
+
+- match: 'puppetlabs\.(.*)\.memory\.total\.max'
+  match_type: regex
+  name: 'puppetlabs_memory_total_max'
+
+- match: 'puppetlabs\.(.*)\.memory\.total\.init'
+  match_type: regex
+  name: 'puppetlabs_memory_total_init'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_catalog\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_catalog_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.store_report\.full-response\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_store_report_full_response_p95'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.max'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_max'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.command\.replace_facts\.full-response\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_command_replace_facts_full_response_mean'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.query\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_query_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.resource\.search\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_resource_search_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.min'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_min'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.count'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_count'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_stddev'
+
+- match: 'puppetlabs\.(.*)\.http-client\.experimental\.with-metric-id\.puppetdb\.facts\.find\.full-response\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_client_puppetdb_facts_find_full_response_p75'
+
+- match: 'puppetlabs\.(.*)\.functions\.count'
+  match_type: regex
+  name: 'puppetlabs_functions_count'
+
+- match: 'puppetlabs\.(.*)\.functions\.max'
+  match_type: regex
+  name: 'puppetlabs_functions_max'
+
+- match: 'puppetlabs\.(.*)\.functions\.p75'
+  match_type: regex
+  name: 'puppetlabs_functions_p75'
+
+- match: 'puppetlabs\.(.*)\.functions\.p95'
+  match_type: regex
+  name: 'puppetlabs_functions_p95'
+
+- match: 'puppetlabs\.(.*)\.functions\.p50'
+  match_type: regex
+  name: 'puppetlabs_functions_p50'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.min'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_min'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.count'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_count'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.mean'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_mean'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.stddev'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_stddev'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.p95'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_p95'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.command\.submit\.p50'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_command_submit_p50'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.max'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_max'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.stddev'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_stddev'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.p75'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_p75'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.catalog\.save\.p95'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_catalog_save_p95'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.min'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_min'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.count'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_count'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.mean'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_mean'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.stddev'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_stddev'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.p75'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_p75'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.resource\.search\.p95'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_resource_search_p95'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.max'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_max'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.mean'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_mean'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.report\.process\.p95'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_report_process_p95'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.max'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_max'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.mean'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_mean'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.stddev'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_stddev'
+
+- match: 'puppetlabs\.(.*)\.puppetdb\.facts\.find\.p75'
+  match_type: regex
+  name: 'puppetlabs_puppetdb_facts_find_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-report-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_report_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_content-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_content_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-static_file_content-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_static_file_content_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.max'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_max'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.active-histo\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_active_histo_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadatas-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadatas_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environment_classes-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environment_classes_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.min'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_min'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.total-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_total_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.mean'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_mean'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.stddev'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_stddev'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_metadata-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_metadata_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.count'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_count'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-environments-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_environments_requests_p50'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-node-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_node_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.p75'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_p75'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-catalog-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_catalog_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-percentage'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_percentage'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.max'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_max'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.p95'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_p95'
+
+- match: 'puppetlabs\.(.*)\.http\.puppet-v3-file_bucket_file-/\*/-requests\.p50'
+  match_type: regex
+  name: 'puppetlabs_http_puppet_v3_file_bucket_file_requests_p50'
+
